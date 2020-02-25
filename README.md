@@ -15,7 +15,7 @@ Source:https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
 Breadth-First Tree Traversal
 There are different types of traversals that one can use when it comes to trees
 For a breadth-first traversal, it is the simplest because you just list the nodes in numerical order.
-	1
+		1
     2       3
   4   5
 The traversal would look like: 1,2,3,4,5 in a breadth-first traversal.
@@ -28,7 +28,7 @@ Each tree traversal uses a different order when it comes to how it traverses a t
 Preorder 
 In Preorder traversal, it begins at the root and then traverses the left side of the tree, and then finishes with the right side of the tree.
 
-	1
+		1
     2       3
   4   5
 
@@ -39,7 +39,7 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 Inorder
 For this tree traversal we start out at the bottom of the tree, and then traverse from left to right.
 
-	1
+		1
     2       3
   4   5
 
@@ -51,7 +51,7 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 Postorder
 Similar to Inorder traversal we start at the bottom of the tree, the key difference is that the root of the entire tree goes last. In the order of left, right, root.
 
-	1
+		1
     2       3
   4   5
 
