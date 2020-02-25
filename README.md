@@ -15,9 +15,9 @@ Source:https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
 Breadth-First Tree Traversal
 There are different types of traversals that one can use when it comes to trees
 For a breadth-first traversal, it is the simplest because you just list the nodes in numerical order.
-	  1
-    2       3
-  4   5
+	 1
+    2     3
+  4    5
 The traversal would look like: 1,2,3,4,5 in a breadth-first traversal.
 Source:https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
@@ -28,9 +28,9 @@ Each tree traversal uses a different order when it comes to how it traverses a t
 Preorder 
 In Preorder traversal, it begins at the root and then traverses the left side of the tree, and then finishes with the right side of the tree.
 
-	  1
-    2       3
-  4   5
+	 1
+    2     3
+  4    5
 
 The order would start at 1. Then we would traverse to the left to 2 and then count the children of 2, 4 and 5. Then we would finish on the right side of the tree at 3.
 In this example the order would go: 1,2,4,5,3
@@ -39,9 +39,9 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 Inorder
 For this tree traversal we start out at the bottom of the tree, and then traverse from left to right.
 
-	  1
-    2       3
-  4   5
+	 1
+    2     3
+  4    5
 
 In this we start at the bottom on the left-most node, which in this case is 4. We then go to the root of the subtree which is 2, and then to the right node at 5. We then go to the root of the tree at 1, and finish to the right at 3.
 So the order for this would be: 4,2,5,1,3
@@ -51,9 +51,9 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 Postorder
 Similar to Inorder traversal we start at the bottom of the tree, the key difference is that the root of the entire tree goes last. In the order of left, right, root.
 
-	  1
-    2       3
-  4   5
+	 1
+    2     3
+  4    5
 
 We start at the bottom in this example at 4, and then traverse to the right at 5. We now traverse the sub-root at 2, and then go right at 3. Then we finish at the root where 1 is.
 The order for Postorder ends up being: 4,5,2,3,1
